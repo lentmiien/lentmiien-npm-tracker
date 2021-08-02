@@ -1,0 +1,29 @@
+{
+  "name": "@lentmiien/tracker",
+  "version": "0.1.0",
+  "description": "A tracking package for dhl/usps/jp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lentmiien/lentmiien-npm-tracker.git"
+  },
+  "keywords": [
+    "tracker"
+  ],
+  "author": "Lennart Granstrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lentmiien/lentmiien-npm-tracker/issues"
+  },
+  "homepage": "https://github.com/lentmiien/lentmiien-npm-tracker#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}

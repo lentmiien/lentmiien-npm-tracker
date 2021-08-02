@@ -1,0 +1,53 @@
+{
+  "default_settings": {
+    "dhl": {
+      "api_key": null,
+      "rate_limit": { "per_second": 1, "per_day": 2500 }
+    },
+    "usps": {
+      "api_key": null,
+      "rate_limit": { "per_second": 2, "per_day": 5000 }
+    },
+    "jp": {
+      "api_key": null,
+      "rate_limit": { "per_second": 0.5, "per_day": 10000 }
+    }
+  },
+  "updates": {
+    "dhl": {
+      "api_key": "qwe123"
+    },
+    "usps": {
+      "rate_limit": { "per_second": 5 }
+    },
+    "jp": {
+      "rate_limit": { "per_day": 15000 },
+      "random_stuff": "this should be ignored"
+    }
+  },
+  "updated_settings": {
+    "dhl": {
+      "api_key": "qwe123",
+      "rate_limit": { "per_second": 1, "per_day": 2500 }
+    },
+    "usps": {
+      "api_key": null,
+      "rate_limit": { "per_second": 5, "per_day": 5000 }
+    },
+    "jp": {
+      "api_key": null,
+      "rate_limit": { "per_second": 0.5, "per_day": 15000 }
+    }
+  },
+  "invalid_data": "invalid input should not change anything",
+  "invalid_data_2": {
+    "dhl": {
+      "api_key": 132
+    }
+  },
+  "invalid_data_3": {
+    "dhl": {
+      "rate_limit": { "per_second": "5" }
+    }
+  }
+}
